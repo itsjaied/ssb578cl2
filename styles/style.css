@@ -1,0 +1,146 @@
+/* global css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* ******** */
+
+/* doctors section */
+.doctors {
+  padding: 40px 0;
+}
+.doctors .title {
+  text-align: left;
+  margin: 0 0 40px;
+}
+.doctors .title h1 {
+  color: #2a527b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.doctors .title p {
+  color: #444444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+.doctors .profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.doctors .profile .doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.doctors .profile .doctor .profile-img img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.doctors .profile .doctor .profile-info {
+  border-left: 5px solid red;
+  padding: 0 0 0 20px;
+}
+.doctors .profile .doctor .profile-info .name {
+  color: #2a527b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+.doctors .profile .doctor .profile-info .designation {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/* department section */
+.departments {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #029db3;
+}
+.departments .title {
+  text-align: left;
+  margin: 0 0 40px;
+}
+.departments .title h1 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0 0 10px;
+}
+.departments .title p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+.departments .inner-departments {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.departments .inner-departments .department {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.departments .inner-departments .department .department-img img {
+  max-width: 100%;
+}
+.departments .inner-departments .department .department-info h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  margin: 0 0 16px;
+}
+.departments .inner-departments .department .department-info p {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+.departments .inner-departments .department .department-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.departments .inner-departments .department .department-list li {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 0;
+}
+.departments
+  .inner-departments
+  .department
+  .department-list
+  li:not(:last-child) {
+  border-bottom: 1px solid #13a6bb;
+}
